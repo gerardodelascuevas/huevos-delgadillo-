@@ -1,0 +1,135 @@
+/*responsive design a continuacion*/
+
+html{
+	display: flex;
+	margin: 0%;
+	padding: 0%;
+	flex-wrap: wrap;
+}
+body {
+	background: white;
+	font-family: arial
+	
+}
+/*
+#container{
+	width: 10%;
+	width: 68.75em;
+	margin: 0px auto;
+	border: 6.25em solid rgb(98, 98, 146);
+	text-align: center;
+	}
+	*/
+#container{
+	align-items: center;
+}
+.titulo-principal {
+font-size: 5em;
+color: rgb(10, 10, 9);
+font-family: chiller;
+text-decoration: solid;
+align-items: center;
+
+}
+.inicio{
+	font-size: 4em;
+	color: rgb(50, 235, 66);
+	font-family: sans-serif;
+text-align: center;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+#navegador {
+	padding: 2.5rem;
+    margin: 0;
+    background-color: rgb(55, 79, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    gap:4rem;
+	
+		
+}
+#navegador a{
+	text-decoration: none;
+	color: aliceblue;
+	padding: 2.5rem;
+}
+
+#navegador: :hover{
+	cursor: pointer;
+	color: black;
+}
+#contacto{
+	width: 70%;
+	width: 68.75em;
+	margin: 0px auto;
+	border: 6.25em solid blue;
+	text-align: center;
+}
+#fundador{
+	width: 70%;
+	width: 68.75em;
+	margin: 0px auto;
+	border: 6.25em solid blue;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.fundador_delga{
+	font-size: 2.5em;
+	text-align: center;
+	background: brown;
+	color: orange;
+	align-items: center;
+}
+
+.default{
+	width: 90%
+vertical-align: top;
+border: 0.0625em solid;
+border-collapse: collapse;
+padding: 0.3cm;
+}
+caption{
+	padding: 0.3cm;
+}
+
+.first_line{
+display: flex;
+}
+
+.texto{
+	display: flex;
+}
+
+#navegador:hover{
+	background: rgb(80, 123, 163);
+}
+
+
+.logo_delgadillo{
+	border: 1em;
+
+}
+
+
+.fundadordelga{
+	border-right: : 3em medium;
+	align: center;
+	margin: 5em;
+	align-items: center;
+}
+
+
+footer{
+	text-align: right;
+	color: green;
+	font-family: brush script mt;
+	font-size: 1.56em;
+margin-top: 20rem;
+}
