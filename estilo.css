@@ -24,23 +24,52 @@ body {
 	align-items: center;
 }
 .titulo-principal {
-font-size: 5em;
-color: rgb(10, 10, 9);
-font-family: chiller;
-text-decoration: solid;
-align-items: center;
+	font-size: 5em;
+	color: rgb(10, 10, 9);
+	font-family: chiller;
+	text-decoration: solid;
+	align-items: center;
 
 }
 .inicio{
 	font-size: 4em;
 	color: rgb(50, 235, 66);
 	font-family: sans-serif;
-text-align: center;
-align-items: center;
-font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	align-items: center;
+	font-family: 'Times New Roman', Times, serif;
 
 }
-#navegador {
+/* aca va navegador*/
+.navegador {
+width: 100%;
+
+}
+.navegador__liga{
+	display: inline-flex;
+	background-color: rgb(170, 110, 13);
+	gap: 2rem;
+	color: blanchedalmond;
+	text-decoration: none;
+	padding: 0.75rem;
+	text-decoration: none;
+    align-items: center;
+    text-align: center;
+	margin: 0;
+	font-size: large;
+	position: relative;
+	border: 100%;
+	margin: 0;
+}
+.navegador__liga :hover{
+	cursor: pointer;
+	color: chartreuse;
+	
+}
+.navegador__liga a{
+	text-decoration: none;
+}
+/*#navegador {
 	padding: 2.5rem;
     margin: 0;
     background-color: rgb(55, 79, 184);
@@ -49,20 +78,26 @@ font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     align-items: center;
     text-align: center;
-    gap:4rem;
+   
 	
 		
 }
-#navegador a{
+/*#navegador a{
 	text-decoration: none;
 	color: aliceblue;
 	padding: 2.5rem;
+	gap: 2rem;
 }
+	.navegador__liga{
+		display: inline-block;
 
-#navegador: :hover{
-	cursor: pointer;
-	color: black;
-}
+	}
+	/*.navegador__liga a :hover{
+		cursor: pointer;
+		padding: auto;
+		color: aliceblue;*/
+
+	}
 #contacto{
 	width: 70%;
 	width: 68.75em;
@@ -70,30 +105,28 @@ font-family: 'Times New Roman', Times, serif;
 	border: 6.25em solid blue;
 	text-align: center;
 }
-#fundador{
+/*#fundador{
 	width: 70%;
 	width: 68.75em;
 	margin: 0px auto;
 	border: 6.25em solid blue;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none;*/
 	
 }
 
 .fundador_delga{
 	font-size: 2.5em;
 	text-align: center;
-	background: brown;
-	color: orange;
 	align-items: center;
 }
 
 .default{
 	width: 90%
-vertical-align: top;
-border: 0.0625em solid;
-border-collapse: collapse;
-padding: 0.3cm;
+	vertical-align: top;
+	border: 0.0625em solid;
+	border-collapse: collapse;
+	padding: 0.3cm;
 }
 caption{
 	padding: 0.3cm;
@@ -106,24 +139,18 @@ display: flex;
 .texto{
 	display: flex;
 }
-
-#navegador:hover{
-	background: rgb(80, 123, 163);
-}
-
-
 .logo_delgadillo{
 	border: 1em;
 
 }
 
 
-.fundadordelga{
+/*.fundadordelga{
 	border-right: : 3em medium;
 	align: center;
 	margin: 5em;
 	align-items: center;
-}
+}*/
 
 
 footer{
@@ -131,5 +158,8 @@ footer{
 	color: green;
 	font-family: brush script mt;
 	font-size: 1.56em;
-margin-top: 20rem;
+	margin-top: 20rem;
+}
+footer a{
+	text-decoration: none;
 }
